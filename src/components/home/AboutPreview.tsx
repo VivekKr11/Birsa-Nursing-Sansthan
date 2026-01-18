@@ -3,12 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 const features = [
-  "Comprehensive medical and nursing education under one umbrella",
-  "Qualified faculty with strong academic and clinical backgrounds",
-  "State-of-the-art infrastructure and modern learning facilities",
-  "Strong emphasis on practical training and clinical exposure",
-  "Commitment to ethical healthcare practices and patient-centered care",
-  "Industry-aligned curriculum designed for future healthcare needs",
+  "Recognized by the Indian Nursing Council (INC)",
+  "Affiliated with JNRC of Jharkhand",
+  "Experienced faculties with extensive healthcare backgrounds",
+  "State-of-the-art modern facilities and infrastructure",
+  "Integrated theoretical knowledge with practical training",
+  "Environment conducive to academic excellence and professional growth",
 ];
 
 const AboutPreview = () => {
@@ -23,7 +23,7 @@ const AboutPreview = () => {
             {/* Main Image */}
             <div className="relative rounded-2xl overflow-hidden shadow-elevated image-zoom">
               <img
-                src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1551601651-2a8555f1a136? auto=format&fit=crop&w=800&q=80"
                 alt="Medical students in laboratory"
                 className="w-full h-[500px] object-cover"
               />
@@ -31,16 +31,16 @@ const AboutPreview = () => {
             </div>
 
             {/* Floating Card */}
-            <div className="absolute -bottom-8 -right-8 bg-background rounded-xl p-6 shadow-card-hover  hidden md:block">
+            <div className="absolute -bottom-8 -right-8 bg-background rounded-xl p-6 shadow-card-hover hidden md:block">
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 rounded-full bg-gradient-hero flex items-center justify-center">
-                  <span className="text-2xl font-display font-bold text-white">10+</span>
+                  <span className="font-serif text-2xl font-bold text-white">2024</span>
                 </div>
                 <div>
-                  <p className="font-display text-lg font-semibold text-foreground">
-                    Advanced
+                  <p className="font-serif text-lg font-bold text-foreground">
+                    Established
                   </p>
-                  <p className="text-muted-foreground">Laboratories</p>
+                  <p className="font-serif text-base text-muted-foreground">Since 2024</p>
                 </div>
               </div>
             </div>
@@ -51,26 +51,33 @@ const AboutPreview = () => {
 
           {/* Content Side */}
           <div className="animate-slide-in-right" style={{ animationDelay: "0.2s" }}>
-            <span className="inline-block text-sm font-semibold text-accent uppercase tracking-wider mb-4">
-              About Our University
+            <span className="inline-block font-serif text-sm font-bold text-accent uppercase tracking-wider mb-4">
+              Excellence in Nursing Education Since 2024
             </span>
 
-            <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
-              Building Tomorrow's Healthcare Leaders
+            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
+              Birsa Nursing Sansthan
             </h2>
 
-            <p className="text-muted-foreground mb-6 leading-relaxed text-lg">
-              Our university is committed to delivering high-quality medical and
-              nursing education through a modern, student-focused learning
-              environment. We aim to prepare future healthcare professionals
-              with the knowledge, skills, and values required to serve society.
+            <p className="font-serif text-muted-foreground mb-6 leading-relaxed text-lg">
+              BNS, a nursing training school located in the heart of Khunti
+              District, offers high-quality nursing education under the
+              prestigious BIMSR Group.  It is recognized by the Indian Nursing
+              Council (INC) and affiliated with JNRC of Jharkhand. We are
+              dedicated to producing skilled healthcare professionals. 
             </p>
 
-            <p className="text-muted-foreground mb-8 leading-relaxed">
-              By integrating academic excellence with hands-on clinical
-              exposure, we ensure that students gain practical insights alongside
-              strong theoretical foundations from the very beginning of their
-              educational journey.
+            <p className="font-serif text-muted-foreground mb-6 leading-relaxed text-base">
+              Our programs integrate theoretical knowledge with extensive
+              practical training, delivered by experienced faculties duly
+              supported by "state of art" modern facilities. This ensures that
+              our graduates are well-prepared to meet the challenges of modern
+              healthcare. 
+            </p>
+
+            <p className="font-serif text-muted-foreground mb-8 leading-relaxed text-base">
+              Our Institute provides an environment conducive to academic
+              excellence and professional growth. 
             </p>
 
             {/* Features List */}
@@ -82,13 +89,13 @@ const AboutPreview = () => {
                   style={{ animationDelay: `${0.3 + index * 0.1}s` }}
                 >
                   <CheckCircle className="w-5 h-5 text-accent mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground">{item}</span>
+                  <span className="font-serif text-base text-foreground">{item}</span>
                 </li>
               ))}
             </ul>
 
-            <Button variant="hero" size="lg" asChild className="group">
-              <Link to="/about">
+            <Button variant="hero" size="lg" asChild className="group font-serif font-semibold">
+              <Link to="/about/about-us">
                 Learn More About Us
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>

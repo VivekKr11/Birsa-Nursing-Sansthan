@@ -64,10 +64,10 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us | Abhyuday Seva Sansthan</title>
+        <title>Contact Us | Birsa Nursing Sansthan</title>
         <meta
           name="description"
-          content="Get in touch with Abhyuday Seva Sansthan.  Contact us for admissions inquiries, general information, or any questions about BIMSR and Birsa Nursing Sansthan programs."
+          content="Get in touch with Birsa Nursing Sansthan.  Contact us for admissions inquiries, general information, or any questions about BIMSR and Birsa Nursing Sansthan programs."
         />
       </Helmet>
       <Layout>
@@ -91,7 +91,7 @@ const Contact = () => {
                 We're Here to Help
               </h1>
               <p className="text-lg md:text-xl text-white/80 leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-                Have questions about admissions, programs, or campus life? Our dedicated team at Abhyuday Seva Sansthan is ready to assist you.  Reach out to us through any of the channels below.
+                Have questions about admissions, programs, or campus life? Our dedicated team at Birsa Nursing Sansthan is ready to assist you.  Reach out to us through any of the channels below.
               </p>
             </div>
           </div>
@@ -152,7 +152,7 @@ const Contact = () => {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Abhyuday Seva Sansthan Location"
+                    title="Birsa Nursing Sansthan Location"
                   />
                 </div>
               </div>
@@ -224,7 +224,7 @@ const Contact = () => {
                       Visit Our Campus
                     </h2>
                     <p className="text-muted-foreground mb-6">
-                      We warmly welcome prospective students and their families to visit our campus and experience our state-of-the-art facilities, meet our faculty, and get a feel for campus life at Abhyuday Seva Sansthan.
+                      We warmly welcome prospective students and their families to visit our campus and experience our state-of-the-art facilities, meet our faculty, and get a feel for campus life at Birsa Nursing Sansthan.
                     </p>
                     <div className="space-y-3">
                       <div className="flex items-start gap-3">
@@ -272,7 +272,7 @@ const Contact = () => {
                 We're Ready to Answer Your Questions
               </h2>
               <p className="text-muted-foreground mb-6">
-                Abhyuday Seva Sansthan is committed to open and transparent communication. Whether you're a prospective student, parent, healthcare professional, or partner organization, we value your interest and look forward to connecting with you.
+                Birsa Nursing Sansthan is committed to open and transparent communication. Whether you're a prospective student, parent, healthcare professional, or partner organization, we value your interest and look forward to connecting with you.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a
@@ -284,7 +284,7 @@ const Contact = () => {
                 </a>
                 <a
                   href="mailto: info@bimsr.com"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-lg hover: bg-accent/90 transition-colors"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors"
                 >
                   <Mail className="w-4 h-4" />
                   Email Us

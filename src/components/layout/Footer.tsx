@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { GraduationCap, MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,37 +9,36 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-5">
-              <div className="relative p-1 rounded-xl bg-white/90 shadow-lg transition-all duration-300 group-hover:bg-white">
-              <img className="h-[65px]" src="/images/abhuday logo.png" alt="Abhuday Logo" />
-            </div>
+              <div className="relative p-1 rounded-xl bg-white/90 shadow-lg transition-all duration-300 hover: bg-white">
+                <img className="h-[65px]" src="./images/birsa-nursing-sansthan logo.webp" alt="BNS Logo" />
+              </div>
               <div className="flex flex-col">
-                <span className="font-display text-base font-semibold leading-tight">
-                  Abhyuday 
+                <span className="font-serif text-lg font-bold leading-tight">
+                  Birsa Nursing
                 </span>
-                <span className="font-display text-base font-semibold text-primary leading-tight" style={{ color: 'hsl(200, 70%, 55%)' }}>
-                  Seva Sansthan
+                <span className="font-serif text-lg font-bold text-primary leading-tight" style={{ color: 'hsl(200, 70%, 55%)' }}>
+                  Sansthan
                 </span>
               </div>
             </Link>
-            <p className="text-background/70 text-sm leading-relaxed">
-              Dedicated to excellence in medical and nursing education, shaping the future of healthcare professionals.
+            <p className="font-serif text-background/70 text-base leading-relaxed">
+              Dedicated to excellence in nursing education, shaping compassionate and skilled healthcare professionals since 2024.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-display text-lg font-semibold mb-5">Quick Links</h4>
+            <h4 className="font-serif text-lg font-bold mb-5">Quick Links</h4>
             <ul className="space-y-3">
               {[
                 { href: "/", label: "Home" },
-                { href: "/about", label: "About Us" },
-                { href: "/institutions", label: "Our Institutions" },
+                { href: "/about/about-us", label: "About Us" },
                 { href: "/contact", label: "Contact Us" },
               ].map((link) => (
-                <li key={link.href}>
+                <li key={link. href}>
                   <Link
                     to={link.href}
-                    className="text-background/70 hover:text-background text-sm transition-colors duration-200"
+                    className="font-serif text-background/70 hover:text-background text-base transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -48,41 +47,45 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Institutions */}
+          {/* Courses */}
           <div>
-            <h4 className="font-display text-lg font-semibold mb-5">Our Institutions</h4>
+            <h4 className="font-serif text-lg font-bold mb-5">Our Courses</h4>
             <ul className="space-y-3">
               <li>
-                <a
-                  href="https://bimsr.com/"
-                  className="text-background/70 hover:text-background text-sm transition-colors duration-200"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  to="/courses/anm"
+                  className="font-serif text-background/70 hover:text-background text-base transition-colors duration-200"
                 >
-                  Birsa Institute of Medical Sciences & Research
-                </a>
+                  Auxiliary Nursing & Midwifery (ANM)
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-background/70 hover:text-background text-sm transition-colors duration-200"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  to="/courses/gnm"
+                  className="font-serif text-background/70 hover:text-background text-base transition-colors duration-200"
                 >
-                  Birsa Nursing Sansthan
-                </a>
+                  General Nursing & Midwifery (GNM)
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/courses/bsc-nursing"
+                  className="font-serif text-background/70 hover:text-background text-base transition-colors duration-200"
+                >
+                  B.Sc. Nursing
+                </Link>
               </li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-display text-lg font-semibold mb-5">Contact</h4>
+            <h4 className="font-serif text-lg font-bold mb-5">Contact</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" style={{ color: 'hsl(200, 70%, 55%)' }} />
-                <span className="text-background/70 text-sm">
-                 Village- Jiyarappa,  <br />
+                <span className="font-serif text-background/70 text-base">
+                  Village- Jiyarappa,  <br />
                   NH 75, Khunti,<br />
                   Jharkhand
                 </span>
@@ -91,7 +94,7 @@ const Footer = () => {
                 <Phone className="w-5 h-5 text-primary shrink-0" style={{ color: 'hsl(200, 70%, 55%)' }} />
                 <a
                   href="tel:+918877880011"
-                  className="text-background/70 hover:text-background text-sm transition-colors"
+                  className="font-serif text-background/70 hover:text-background text-base transition-colors"
                 >
                   +91 8877880011
                 </a>
@@ -99,10 +102,10 @@ const Footer = () => {
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary shrink-0" style={{ color: 'hsl(200, 70%, 55%)' }} />
                 <a
-                  href="mailto:info@university.edu"
-                  className="text-background/70 hover:text-background text-sm transition-colors"
+                  href="mailto:info@birsanursing.edu"
+                  className="font-serif text-background/70 hover:text-background text-base transition-colors"
                 >
-                  info@university.edu
+                  info@birsanursing.edu
                 </a>
               </li>
             </ul>
@@ -112,16 +115,16 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-background/10 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-background/60 text-sm">
-              © {new Date().getFullYear()} Abhyuday Seva Sansthan. All rights reserved.
+            <p className="font-serif text-background/60 text-base">
+              © {new Date().getFullYear()} Birsa Nursing Sansthan.  All rights reserved.
             </p>
             <div className="flex gap-6">
-              <a href="#" className="text-background/60 hover:text-background text-sm transition-colors">
+              <Link to="/privacy-policy" className="font-serif text-background/60 hover:text-background text-base transition-colors">
                 Privacy Policy
-              </a>
-              <a href="#" className="text-background/60 hover:text-background text-sm transition-colors">
+              </Link>
+              <Link to="/terms" className="font-serif text-background/60 hover:text-background text-base transition-colors">
                 Terms of Use
-              </a>
+              </Link>
             </div>
           </div>
         </div>

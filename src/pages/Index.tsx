@@ -5,12 +5,14 @@ import AboutPreview from "@/components/home/AboutPreview";
 import InstitutionsSection from "@/components/home/InstitutionsSection";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import CTASection from "@/components/home/CTASection";
+import CoursesSection from "@/components/home/CoursesSection";
+import FounderSection from './../components/home/FounderSection';
 
 const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Abhyuday Seva Sansthan</title>
+        <title>Birsa Nursing Sansthan</title>
         <meta
           name="description"
           content=""
@@ -20,8 +22,8 @@ const Index = () => {
       <Layout>
         <HeroSection />
         <AboutPreview />
-        <InstitutionsSection />
-        <WhyChooseUs />
+        <CoursesSection/>
+        <FounderSection/>
         <CTASection />
       </Layout>
     </>

@@ -1,12 +1,11 @@
-import { ArrowRight, Award, Users, BookOpen } from "lucide-react";
+import { ArrowRight, Award, Users, BookOpen, Newspaper, UserCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 const stats = [
-  { icon: BookOpen, value: "10+", label: "Academic Programs" },
-  { icon: Users, value: "100+", label: "Expert Faculty & Mentors" },
-  { icon: Award, value: "50+ Acres", label: "Integrated Campus" },
-
+  { icon: Users, value: "180+", label: "Students" },
+  { icon: UserCheck, value: "15+", label: "Experienced Doctors" },
+  { icon:  Newspaper, value: "15+", label: "in - News" },
 ];
 
 const HeroSection = () => {
@@ -32,63 +31,61 @@ const HeroSection = () => {
       />
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10 pt-20">
-        <div className="max-w-4xl">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8 animate-fade-in">
-            <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-            <span className="text-sm font-medium text-white/90">
-              Admissions Open for 2026–27
+        <div className="max-w-5xl">
+          {/* Top Badge */}
+          <div
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6 animate-fade-in-up"
+            style={{ animationDelay: "0s" }}
+          >
+            <Award className="w-4 h-4 text-accent" />
+            <span className="font-serif text-sm text-white/90 font-medium">
+              A unit of Birsa Institute of Medical Sciences & Research
             </span>
           </div>
 
           {/* Main Heading */}
           <h1
-            className="font-display text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight mb-6 animate-fade-in-up"
+            className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight mb-6 animate-fade-in-up"
             style={{ animationDelay: "0.1s" }}
           >
-            Shaping the Future of
             <span
-              className="block mt-2 text-transparent bg-clip-text"
+              className="block text-transparent bg-clip-text p-3"
               style={{
-                background:
+                background: 
                   "linear-gradient(135deg, hsl(175, 60%, 55%) 0%, hsl(200, 70%, 60%) 50%, hsl(210, 60%, 70%) 100%)",
-                WebkitBackgroundClip: "text",
+                WebkitBackgroundClip:  "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
               }}
             >
-              Healthcare Education
+              Birsa Nursing Sansthan
             </span>
           </h1>
 
           {/* Subheading */}
           <p
-            className="text-lg md:text-xl text-white/80 max-w-2xl mb-10 animate-fade-in-up leading-relaxed"
+            className="font-serif text-lg md:text-xl text-white/80 max-w-2xl mb-10 animate-fade-in-up leading-relaxed"
             style={{ animationDelay: "0.2s" }}
           >
-            A modern institution committed to excellence in medical and nursing
-            education, fostering innovation, ethical practice, and compassionate
-            care from day one.
+            Shaping healthcare professionals with excellence, innovation, and
+            compassion. Discover a learning environment designed for future
+            leaders in nursing.
           </p>
 
-          {/* CTA Buttons */}
+          {/* CTA Button */}
           <div
             className="flex flex-col sm:flex-row gap-4 mb-16 animate-fade-in-up"
             style={{ animationDelay: "0.3s" }}
           >
-            <Button variant="hero" size="xl" asChild className="shadow-glow">
-              <Link to="/institutions">
-                Explore Our Institutions
-                <ArrowRight className="w-5 h-5" />
-              </Link>
-            </Button>
-
             <Button
               size="xl"
               asChild
-              className="bg-white/10 backdrop-blur-sm border border-white/30 text-white hover:bg-white/20 transition-all"
+              className="bg-white/10 backdrop-blur-sm border border-white/30 text-white hover:bg-white/20 transition-all shadow-lg font-serif font-semibold"
             >
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact">
+                Contact Us
+                <ArrowRight className="w-5 h-5" />
+              </Link>
             </Button>
           </div>
 
@@ -105,29 +102,14 @@ const HeroSection = () => {
                 <div className="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center mb-3">
                   <stat.icon className="w-6 h-6 text-accent" />
                 </div>
-                <span className="font-display text-3xl font-bold text-white">
-                  {stat.value}
+                <span className="font-serif text-3xl font-bold text-white">
+                  {stat. value}
                 </span>
-                <span className="text-sm text-white/70">{stat.label}</span>
+                <span className="font-serif text-base text-white/70 text-center">{stat.label}</span>
               </div>
             ))}
           </div>
         </div>
-      </div>
-
-      {/* Bottom Wave */}
-      <div className="absolute bottom-0 left-0 right-0">
-        <svg
-          viewBox="0 0 1440 120"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-full"
-        >
-          <path
-            d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H0Z"
-            fill="hsl(var(--card))"
-          />
-        </svg>
       </div>
     </section>
   );
