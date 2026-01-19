@@ -180,7 +180,7 @@ const GNM = () => {
                     <h3 className="font-serif text-sm text-muted-foreground mb-2 font-medium uppercase tracking-wide">
                       {item.title}
                     </h3>
-                    <p className="font-serif text-3xl font-bold text-foreground">
+                    <p className=" text-3xl font-semibold text-foreground">
                       {item.value}
                     </p>
                   </div>

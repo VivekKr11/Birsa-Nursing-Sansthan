@@ -22,7 +22,7 @@ const Footer = () => {
               </div>
             </Link>
             <p className="font-serif text-background/70 text-base leading-relaxed">
-              Dedicated to excellence in nursing education, shaping compassionate and skilled healthcare professionals since 2024.
+              Dedicated to excellence in nursing education, shaping compassionate and skilled healthcare professionals since <span className="font-mono">2024</span>.
             </p>
           </div>
 
@@ -86,7 +86,7 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" style={{ color: 'hsl(200, 70%, 55%)' }} />
                 <span className="font-serif text-background/70 text-base">
                   Village- Jiyarappa,  <br />
-                  NH 75, Khunti,<br />
+                  NH <span className="font-mono">75</span>, Khunti,<br />
                   Jharkhand
                 </span>
               </li>
@@ -94,7 +94,7 @@ const Footer = () => {
                 <Phone className="w-5 h-5 text-primary shrink-0" style={{ color: 'hsl(200, 70%, 55%)' }} />
                 <a
                   href="tel:+918877880011"
-                  className="font-serif text-background/70 hover:text-background text-base transition-colors"
+                  className=" text-background/70 hover:text-background text-base transition-colors"
                 >
                   +91 8877880011
                 </a>

@@ -75,7 +75,7 @@ const FeeStructure = () => {
                 </span>
                 <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 leading-tight animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
                   Fee Structure
-                  <span className="block text-accent mt-2">2025-26 Session</span>
+                  <span className="block text-accent mt-2"><span className="font-sans">2025-26</span> Session</span>
                 </h1>
                 <p className="font-serif text-lg md:text-xl text-white/90 max-w-3xl leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
                   Transparent and affordable fee structure for all our nursing programs.  Invest in your future with quality education at competitive costs.
@@ -91,13 +91,13 @@ const FeeStructure = () => {
                 <div className="text-center mb-12">
                   <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-4">
                     <FileText className="w-4 h-4 text-primary" />
-                    <span className="font-serif text-sm font-semibold text-primary">24 Months Program</span>
+                    <span className=" text-sm font-semibold text-primary">24 Months Program</span>
                   </div>
                   <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
                     ANM Fee Structure
                   </h2>
                   <p className="font-serif text-base text-muted-foreground">
-                    Session 2025 - 2027
+                    Session <span className="font-sans">2025 - 2027</span>
                   </p>
                 </div>
 
@@ -123,10 +123,10 @@ const FeeStructure = () => {
                             <td className={`font-serif px-6 py-4 text-base ${row.isTotal ? "font-bold text-foreground" : "text-foreground"}`}>
                               {row.particular}
                             </td>
-                            <td className={`font-serif text-center px-6 py-4 text-base ${row. isTotal ? "font-bold text-primary" : "text-muted-foreground"}`}>
+                            <td className={` text-center px-6 py-4 text-base ${row. isTotal ? "font-bold text-primary" : "text-muted-foreground"}`}>
                               {row.year1}
                             </td>
-                            <td className={`font-serif text-center px-6 py-4 text-base ${row.isTotal ? "font-bold text-primary" : "text-muted-foreground"}`}>
+                            <td className={` text-center px-6 py-4 text-base ${row.isTotal ? "font-bold text-primary" : "text-muted-foreground"}`}>
                               {row.year2}
                             </td>
                           </tr>
@@ -137,7 +137,7 @@ const FeeStructure = () => {
                   <div className="bg-primary/10 px-6 py-4 border-t-2 border-primary">
                     <div className="flex items-center justify-between">
                       <span className="font-serif text-lg font-bold text-foreground">Grand Total</span>
-                      <span className="font-serif text-2xl md:text-3xl font-bold text-primary">₹ 1,30,000/-</span>
+                      <span className=" text-2xl md:text-3xl font-bold text-primary">₹ 1,30,000/-</span>
                     </div>
                   </div>
                 </div>
@@ -152,13 +152,13 @@ const FeeStructure = () => {
                 <div className="text-center mb-12">
                   <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 mb-4">
                     <FileText className="w-4 h-4 text-accent" />
-                    <span className="font-serif text-sm font-semibold text-accent">3 Years Program</span>
+                    <span className=" text-sm font-semibold text-accent">3 Years Program</span>
                   </div>
                   <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
                     GNM Fee Structure
                   </h2>
                   <p className="font-serif text-base text-muted-foreground">
-                    Session October 2025 – September 2028
+                    Session October <span className="font-sans">2025 – September 2028</span> 
                   </p>
                 </div>
 
@@ -185,13 +185,13 @@ const FeeStructure = () => {
                             <td className={`font-serif px-6 py-4 text-base ${row. isTotal ? "font-bold text-foreground" : "text-foreground"}`}>
                               {row.particular}
                             </td>
-                            <td className={`font-serif text-center px-6 py-4 text-base ${row.isTotal ? "font-bold text-accent" : "text-muted-foreground"}`}>
+                            <td className={` text-center px-6 py-4 text-base ${row.isTotal ? "font-bold text-accent" : "text-muted-foreground"}`}>
                               {row.year1}
                             </td>
-                            <td className={`font-serif text-center px-6 py-4 text-base ${row. isTotal ? "font-bold text-accent" : "text-muted-foreground"}`}>
+                            <td className={` text-center px-6 py-4 text-base ${row. isTotal ? "font-bold text-accent" : "text-muted-foreground"}`}>
                               {row.year2}
                             </td>
-                            <td className={`font-serif text-center px-6 py-4 text-base ${row.isTotal ? "font-bold text-accent" : "text-muted-foreground"}`}>
+                            <td className={` text-center px-6 py-4 text-base ${row.isTotal ? "font-bold text-accent" : "text-muted-foreground"}`}>
                               {row.year3}
                             </td>
                           </tr>
@@ -202,7 +202,7 @@ const FeeStructure = () => {
                   <div className="bg-accent/10 px-6 py-4 border-t-2 border-accent">
                     <div className="flex items-center justify-between">
                       <span className="font-serif text-lg font-bold text-foreground">Grand Total</span>
-                      <span className="font-serif text-2xl md:text-3xl font-bold text-accent">₹ 2,65,000/-</span>
+                      <span className=" text-2xl md:text-3xl font-bold text-accent">₹ 2,65,000/-</span>
                     </div>
                   </div>
                 </div>
@@ -217,13 +217,13 @@ const FeeStructure = () => {
                 <div className="text-center mb-12">
                   <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-4">
                     <FileText className="w-4 h-4 text-primary" />
-                    <span className="font-serif text-sm font-semibold text-primary">4 Years Program</span>
+                    <span className=" text-sm font-semibold text-primary">4 Years Program</span>
                   </div>
                   <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
                     B. Sc. Nursing Fee Structure
                   </h2>
                   <p className="font-serif text-base text-muted-foreground">
-                    Session October 2025 – September 2029
+                    Session October <span className="font-sans">2025 – September 2029</span>
                   </p>
                 </div>
 
@@ -251,16 +251,16 @@ const FeeStructure = () => {
                             <td className={`font-serif px-6 py-4 text-base ${row. isTotal ? "font-bold text-foreground" : "text-foreground"}`}>
                               {row.particular}
                             </td>
-                            <td className={`font-serif text-center px-6 py-4 text-base ${row.isTotal ? "font-bold text-primary" : "text-muted-foreground"}`}>
+                            <td className={` text-center px-6 py-4 text-base ${row.isTotal ? "font-bold text-primary" : "text-muted-foreground"}`}>
                               {row.year1}
                             </td>
-                            <td className={`font-serif text-center px-6 py-4 text-base ${row.isTotal ? "font-bold text-primary" : "text-muted-foreground"}`}>
+                            <td className={` text-center px-6 py-4 text-base ${row.isTotal ? "font-bold text-primary" : "text-muted-foreground"}`}>
                               {row.year2}
                             </td>
-                            <td className={`font-serif text-center px-6 py-4 text-base ${row.isTotal ? "font-bold text-primary" : "text-muted-foreground"}`}>
+                            <td className={` text-center px-6 py-4 text-base ${row.isTotal ? "font-bold text-primary" : "text-muted-foreground"}`}>
                               {row.year3}
                             </td>
-                            <td className={`font-serif text-center px-6 py-4 text-base ${row.isTotal ?  "font-bold text-primary" : "text-muted-foreground"}`}>
+                            <td className={` text-center px-6 py-4 text-base ${row.isTotal ?  "font-bold text-primary" : "text-muted-foreground"}`}>
                               {row.year4}
                             </td>
                           </tr>
@@ -271,7 +271,7 @@ const FeeStructure = () => {
                   <div className="bg-primary/10 px-6 py-4 border-t-2 border-primary">
                     <div className="flex items-center justify-between">
                       <span className="font-serif text-lg font-bold text-foreground">Grand Total</span>
-                      <span className="font-serif text-2xl md:text-3xl font-bold text-primary">₹ 3,90,000/-</span>
+                      <span className=" text-2xl md:text-3xl font-bold text-primary">₹ 3,90,000/-</span>
                     </div>
                   </div>
                 </div>
@@ -307,7 +307,7 @@ const FeeStructure = () => {
                       <h3 className="font-serif text-lg font-bold text-foreground mb-3">
                         {charge.item}
                       </h3>
-                      <p className="font-serif text-xl font-bold text-primary">
+                      <p className=" text-xl font-bold text-primary">
                         {charge.amount}
                       </p>
                     </div>

@@ -57,7 +57,7 @@ const FounderSection = () => {
               </div>
 
               {/* Value */}
-              <div className="font-serif text-4xl font-bold text-foreground mb-1">
+              <div className=" text-4xl font-bold text-foreground mb-1">
                 {stat.value}
               </div>
 
@@ -137,7 +137,7 @@ const FounderSection = () => {
                 <p className="text-xs text-muted-foreground uppercase tracking-wider mb-1">
                   Established
                 </p>
-                <p className="font-serif text-2xl font-bold text-primary">
+                <p className=" text-2xl font-bold text-primary">
                   2024
                 </p>
               </div>

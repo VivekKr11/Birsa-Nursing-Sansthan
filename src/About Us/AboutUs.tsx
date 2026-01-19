@@ -296,17 +296,17 @@ const AboutUs = () => {
                 </div>
                 <div className="bg-card rounded-2xl p-8 text-center shadow-card hover:shadow-card-hover transition-all">
                   <Users className="w-12 h-12 text-primary mx-auto mb-4" />
-                  <div className="font-serif text-4xl font-bold text-foreground mb-2">180+</div>
+                  <div className=" text-4xl font-bold text-foreground mb-2">180+</div>
                   <div className="font-serif text-base text-muted-foreground">Students</div>
                 </div>
                 <div className="bg-card rounded-2xl p-8 text-center shadow-card hover:shadow-card-hover transition-all">
                   <BookOpen className="w-12 h-12 text-primary mx-auto mb-4" />
-                  <div className="font-serif text-4xl font-bold text-foreground mb-2">15+</div>
+                  <div className=" text-4xl font-bold text-foreground mb-2">15+</div>
                   <div className="font-serif text-base text-muted-foreground">Expert Faculty</div>
                 </div>
                 <div className="bg-card rounded-2xl p-8 text-center shadow-card hover:shadow-card-hover transition-all">
                   <TrendingUp className="w-12 h-12 text-primary mx-auto mb-4" />
-                  <div className="font-serif text-4xl font-bold text-foreground mb-2">100%</div>
+                  <div className=" text-4xl font-bold text-foreground mb-2">100%</div>
                   <div className="font-serif text-base text-muted-foreground">Placement</div>
                 </div>
               </div>

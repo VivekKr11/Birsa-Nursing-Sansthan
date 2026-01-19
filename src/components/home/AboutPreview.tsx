@@ -34,13 +34,13 @@ const AboutPreview = () => {
             <div className="absolute -bottom-8 -right-8 bg-background rounded-xl p-6 shadow-card-hover hidden md:block">
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 rounded-full bg-gradient-hero flex items-center justify-center">
-                  <span className="font-serif text-2xl font-bold text-white">2024</span>
+                  <span className=" text-2xl font-bold text-white">2024</span>
                 </div>
                 <div>
                   <p className="font-serif text-lg font-bold text-foreground">
                     Established
                   </p>
-                  <p className="font-serif text-base text-muted-foreground">Since 2024</p>
+                  <p className=" text-base text-muted-foreground"><span className="font-serif  text-foreground">Since</span> 2024</p>
                 </div>
               </div>
             </div>
