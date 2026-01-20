@@ -75,7 +75,7 @@ const Contact = () => {
         <section className="relative pt-32 pb-24 overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=2000&q=80"
+              src="/images/HOSPITAL.jpg"
               alt="Contact us"
               className="w-full h-full object-cover"
             />
@@ -252,7 +252,7 @@ const Contact = () => {
                   </div>
                   <div className="relative">
                     <img
-                      src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=600&q=80"
+                      src="/images/HOSPITAL.jpg"
                       alt="Campus visit"
                       className="rounded-xl shadow-card w-full h-64 md:h-full object-cover"
                     />

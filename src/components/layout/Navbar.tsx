@@ -10,8 +10,8 @@ const navLinks = [
     label: "Courses",
     dropdownItems: [
       { href: "/courses/anm", label: "ANM" },
-      { href:  "/courses/gnm", label: "GNM" },
-      { href: "/courses/bsc-nursing", label: "B.  Sc Nursing" },
+      { href:   "/courses/gnm", label: "GNM" },
+      { href:  "/courses/bsc-nursing", label: "B.  Sc Nursing" },
     ],
   },
   {
@@ -20,15 +20,15 @@ const navLinks = [
       { href: "/about/laboratory", label: "Laboratory" },
       { href: "/about/faculty", label: "Faculty" },
       { href: "/about/about-us", label: "About Us" },
-      { href:   "/about/news-events", label: "News and Events" },
+      { href:    "/about/news-events", label: "News and Events" },
     ],
   },
   {
-    label:   "Admission",
+    label:    "Admission",
     dropdownItems: [
-      { href:   "/admission/fee-structure", label: "Fee Structure" },
+      { href:    "/admission/fee-structure", label: "Fee Structure" },
       { href:  "/admission/anti-ragging", label: "Anti Ragging" },
-      { href: "/admission/admission", label: "Admission" },
+      { href:  "/admission/admission", label: "Admission" },
     ],
   },
   { href: "/contact", label: "Contact Us" },
@@ -67,7 +67,7 @@ const Navbar = () => {
     setMobileExpandedMenu(mobileExpandedMenu === label ? null : label);
   };
 
-  const isActiveLink = (link:   any) => {
+  const isActiveLink = (link:    any) => {
     if (link.href) {
       return location.pathname === link.href;
     }
@@ -83,7 +83,7 @@ const Navbar = () => {
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
           isScrolled
-            ?   "bg-card/95 backdrop-blur-md shadow-soft border-b border-border"
+            ?    "bg-card/95 backdrop-blur-md shadow-soft border-b border-border"
             :  "bg-transparent"
         )}
       >
@@ -108,12 +108,16 @@ const Navbar = () => {
                   return (
                     <Link
                       key={link.href}
-                      to={link.href}
+                      to={link. href}
                       className={cn(
                         "font-serif px-4 py-2 rounded-lg text-base font-medium transition-colors duration-200",
                         location.pathname === link.href
-                          ? "text-primary bg-secondary"
-                          : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                          ? isScrolled 
+                            ? "text-primary bg-secondary"
+                            :  "text-white bg-white/20 shadow-sm"
+                          : isScrolled
+                            ? "text-muted-foreground hover:text-foreground hover:bg-muted"
+                            : "text-white/90 hover: text-white hover:bg-white/10"
                       )}
                     >
                       {link.label}
@@ -133,11 +137,15 @@ const Navbar = () => {
                         className={cn(
                           "font-serif px-4 py-2 rounded-lg text-base font-medium transition-colors duration-200 flex items-center gap-1",
                           isActiveLink(link)
-                            ? "text-primary bg-secondary"
-                            : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                            ? isScrolled
+                              ? "text-primary bg-secondary"
+                              : "text-white bg-white/20 shadow-sm"
+                            : isScrolled
+                              ? "text-muted-foreground hover:text-foreground hover:bg-muted"
+                              : "text-white/90 hover: text-white hover:bg-white/10"
                         )}
                       >
-                        {link. label}
+                        {link.label}
                         <ChevronDown
                           className={cn(
                             "w-4 h-4 transition-transform duration-200",
@@ -151,12 +159,12 @@ const Navbar = () => {
                         <div className="absolute top-full left-0 w-56 bg-card/95 backdrop-blur-md shadow-lg rounded-lg border border-border py-2 animate-in fade-in slide-in-from-top-2 duration-200">
                           {link.dropdownItems?.map((item) => (
                             <Link
-                              key={item. href}
-                              to={item.href}
+                              key={item.href}
+                              to={item. href}
                               className={cn(
                                 "font-serif block px-4 py-2.5 text-base font-medium transition-colors duration-200",
                                 location.pathname === item.href
-                                  ?   "text-primary bg-secondary/50"
+                                  ?    "text-primary bg-secondary/50"
                                   :  "text-muted-foreground hover:text-foreground hover:bg-muted"
                               )}
                             >
@@ -242,11 +250,11 @@ const Navbar = () => {
                     return (
                       <div key={link.label} className="flex flex-col">
                         <button
-                          onClick={() => handleMobileMenuToggle(link.label)}
+                          onClick={() => handleMobileMenuToggle(link. label)}
                           className={cn(
                             "font-serif px-5 py-4 rounded-xl text-base font-medium transition-all duration-200 flex items-center justify-between",
                             isActiveLink(link)
-                              ?  "bg-gradient-to-r from-blue-600 to-blue-500 text-white shadow-lg shadow-blue-500/30"
+                              ?   "bg-gradient-to-r from-blue-600 to-blue-500 text-white shadow-lg shadow-blue-500/30"
                               : "text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 hover:shadow-md"
                           )}
                         >
@@ -269,7 +277,7 @@ const Navbar = () => {
                                 onClick={() => setIsMobileMenuOpen(false)}
                                 className={cn(
                                   "font-serif px-5 py-3 rounded-lg text-base font-medium transition-all duration-200",
-                                  location. pathname === item.href
+                                  location.pathname === item.href
                                     ?  "bg-gradient-to-r from-blue-500 to-blue-400 text-white shadow-md"
                                     : "text-gray-600 dark:text-gray-300 bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800 hover:text-gray-900 dark:hover:text-white"
                                 )}
@@ -304,11 +312,11 @@ const Navbar = () => {
 
               {/* Footer Info */}
               <div className="p-6 border-t border-gray-200 dark:border-gray-800">
-                <p className="font-serif text-sm text-center text-gray-600 dark:text-gray-400">
+                <p className="font-serif text-sm text-centertext-gray-600 dark: text-gray-400">
                   © 2026 Birsa Nursing Sansthan
                 </p>
-                <p className="font-serif text-xs text-center text-gray-500 dark:text-gray-500 mt-1">
-                  All rights reserved. 
+                <p className="font-serif text-xs text-centertext-gray-500 dark: text-gray-500 mt-1">
+                  All rights reserved.  
                 </p>
               </div>
             </div>

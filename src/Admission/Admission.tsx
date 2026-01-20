@@ -178,7 +178,7 @@ const Admission = () => {
                 {/* Apply Now Button */}
                 <div className="text-center">
                   <button className="font-serif font-semibold px-8 py-4 bg-primary text-white rounded-lg hover:bg-primary/90 transition-all shadow-lg text-lg">
-                    <a href="/contact">Apply Online Now</a>
+                    <a target="_blank" href="https://birsa.ac.in/form/Form%20BNS.pdf">Application Form</a>
                   </button>
                 </div>
               </div>
@@ -421,7 +421,7 @@ const Admission = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <button className="font-serif font-semibold px-8 py-4 bg-primary text-white rounded-lg hover:bg-primary/90 transition-all shadow-lg text-lg">
-                    <a href="/contact">Start Your Application</a>
+                    <a target="_blank" href="https://birsa.ac.in/form/Form%20BNS.pdf">Application Form</a>
                   </button>
                   <button className="font-serif font-semibold px-8 py-4 bg-transparent border-2 border-border text-foreground rounded-lg hover:bg-card transition-all text-lg">
                     <a href="/admission/fee-structure">View Fee Structure</a>

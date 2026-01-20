@@ -5,21 +5,21 @@ import { Link } from "react-router-dom";
 
 const slides = [
   {
-    image: "https://plus.unsplash.com/premium_photo-1673953509975-576678fa6710?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/images/hero1.avif",
     badge: "INC Recognized Programs",
     title: "Birsa Nursing Sansthan",
     subtitle: "Shaping healthcare professionals with excellence, innovation, and compassion.  Discover a learning environment designed for future leaders in nursing.",
     highlight: "Birsa Nursing Sansthan",
   },
   {
-    image:  "https://images.unsplash.com/photo-1621862912856-0909fb7f14b7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+   image: "/images/hero2.avif",
     badge: "Quality Education Since 2024",
     title: "Empowering Future Nurses",
     subtitle: "Join our comprehensive nursing programs – ANM, GNM, and B.Sc.  Nursing. Experience world-class education with modern facilities and expert faculty committed to your success.",
     highlight: "Empowering Future Nurses",
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673958771843-12c73b278bd0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+   image: "/images/hero3.avif",
     badge: "Excellence in Healthcare Education",
     title: "Your Career Begins Here",
     subtitle:  "State-of-the-art laboratories, experienced faculty, and hands-on clinical training. Transform your passion for healthcare into a rewarding nursing career with us.",
