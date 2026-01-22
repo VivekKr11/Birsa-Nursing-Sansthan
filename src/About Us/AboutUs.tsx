@@ -55,7 +55,7 @@ const AboutUs = () => {
           <section className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 overflow-hidden">
             <div className="absolute inset-0">
               <img
-                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=2000&q=80"
+                src="/images/image6.jpeg"
                 alt="Birsa Nursing Sansthan"
                 className="w-full h-full object-cover"
               />
@@ -80,7 +80,7 @@ const AboutUs = () => {
 
           {/* Guiding Principles Section */}
           <section className="py-20 lg:py-28 bg-card">
-            <div className="container mx-auto px-4 lg: px-8">
+            <div className="container mx-auto px-4 lg:px-8">
               <div className="max-w-5xl mx-auto">
                 <div className="text-center mb-12">
                   <span className="inline-block font-serif text-sm font-bold text-accent uppercase tracking-wider mb-4">
@@ -101,7 +101,7 @@ const AboutUs = () => {
           </section>
 
           {/* Vision & Mission Section */}
-          <section className="py-20 lg: py-28 bg-background">
+          <section className="py-20 lg:py-28 bg-background">
             <div className="container mx-auto px-4 lg:px-8">
               <div className="text-center max-w-3xl mx-auto mb-16">
                 <span className="inline-block font-serif text-sm font-bold text-accent uppercase tracking-wider mb-4">
@@ -117,12 +117,13 @@ const AboutUs = () => {
                 <article className="relative bg-card rounded-2xl overflow-hidden shadow-card hover:shadow-card-hover transition-all group">
                   <div className="absolute inset-0">
                     <img
-                      src="https://images.unsplash.com/photo-1559523182-a284c3fb7cff?auto=format&fit=crop&w=800&q=80"
+                      src="/images/image6.jpeg"
                       alt="Vision"
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-card via-card/95 to-card/50" />
                   </div>
+
                   
                   <div className="relative p-8 pt-56">
                     <div className="w-16 h-16 rounded-xl bg-primary/90 flex items-center justify-center mb-6">
@@ -151,7 +152,7 @@ const AboutUs = () => {
                 <article className="relative bg-card rounded-2xl overflow-hidden shadow-card hover:shadow-card-hover transition-all group">
                   <div className="absolute inset-0">
                     <img
-                      src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"
+                      src="/images/image1.jpeg"
                       alt="Mission"
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
@@ -187,7 +188,7 @@ const AboutUs = () => {
           {/* Image Break */}
           <section className="relative h-80 overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=2000&q=80"
+              src="/images/image7.jpeg"
               alt="Nursing education"
               className="w-full h-full object-cover"
             />
@@ -314,7 +315,7 @@ const AboutUs = () => {
           </section>
 
           {/* CTA Section */}
-          <section className="py-20 lg: py-28 bg-gradient-to-br from-primary/5 via-background to-accent/5">
+          <section className="py-20 lg:py-28 bg-gradient-to-br from-primary/5 via-background to-accent/5">
             <div className="container mx-auto px-4 lg:px-8">
               <div className="max-w-4xl mx-auto text-center">
                 <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">

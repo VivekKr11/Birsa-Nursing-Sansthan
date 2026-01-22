@@ -81,7 +81,7 @@ const Admission = () => {
           <section className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 overflow-hidden">
             <div className="absolute inset-0">
               <img
-                src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=2000&q=80"
+                src="/images/image4.jpeg"
                 alt="Admission"
                 className="w-full h-full object-cover"
               />

@@ -23,7 +23,7 @@ const AboutPreview = () => {
             {/* Main Image */}
             <div className="relative rounded-2xl overflow-hidden shadow-elevated image-zoom">
               <img
-                src="https://images.unsplash.com/photo-1551601651-2a8555f1a136? auto=format&fit=crop&w=800&q=80"
+                src="/images/image7.jpeg"
                 alt="Medical students in laboratory"
                 className="w-full h-[500px] object-cover"
               />

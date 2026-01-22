@@ -156,7 +156,7 @@ const Laboratory = () => {
           <section className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 overflow-hidden">
             <div className="absolute inset-0">
               <img
-                src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=2000&q=80"
+                src="/images/image7.jpeg"
                 alt="Laboratory facilities"
                 className="w-full h-full object-cover"
               />
@@ -254,7 +254,7 @@ const Laboratory = () => {
           </section>
 
           {/* Image Carousel Section */}
-          <section className="py-20 lg:py-28 bg-card">
+          {/* <section className="py-20 lg:py-28 bg-card">
             <div className="container mx-auto px-4 lg:px-8">
               <div className="text-center max-w-3xl mx-auto mb-16">
                 <span className="inline-block font-serif text-sm font-bold text-accent uppercase tracking-wider mb-4">
@@ -269,9 +269,9 @@ const Laboratory = () => {
               </div>
 
               <div className="max-w-6xl mx-auto">
-                {/* Carousel Container */}
+           
                 <div className="relative rounded-2xl overflow-hidden shadow-elevated">
-                  {/* Images */}
+                 
                   <div className="relative h-[400px] md:h-[500px] lg:h-[600px]">
                     {carouselImages.map((image, index) => (
                       <div
@@ -287,7 +287,7 @@ const Laboratory = () => {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent" />
                         
-                        {/* Caption */}
+                       
                         <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
                           <h3 className="font-serif text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-3">
                             {image.title}
@@ -300,7 +300,7 @@ const Laboratory = () => {
                     ))}
                   </div>
 
-                  {/* Navigation Arrows */}
+                  
                   <button
                     onClick={prevSlide}
                     className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/90 backdrop-blur-sm hover:bg-white flex items-center justify-center shadow-lg transition-all duration-300 hover: scale-110"
@@ -316,7 +316,7 @@ const Laboratory = () => {
                     <ChevronRight className="w-6 h-6 text-gray-900" />
                   </button>
 
-                  {/* Dots Indicator */}
+                  
                   <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2">
                     {carouselImages.map((_, index) => (
                       <button
@@ -334,7 +334,7 @@ const Laboratory = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
 
           {/* CTA Section */}
           <section className="py-20 lg:py-28 bg-gradient-to-br from-primary/5 via-background to-accent/5">

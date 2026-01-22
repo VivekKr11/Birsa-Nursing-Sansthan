@@ -5,21 +5,21 @@ import { Link } from "react-router-dom";
 
 const slides = [
   {
-    image: "/images/hero1.avif",
+    image: "/images/image5.jpeg",
     badge: "INC Recognized Programs",
     title: "Birsa Nursing Sansthan",
     subtitle: "Shaping healthcare professionals with excellence, innovation, and compassion.  Discover a learning environment designed for future leaders in nursing.",
     highlight: "Birsa Nursing Sansthan",
   },
   {
-   image: "/images/hero2.avif",
+   image: "/images/image7.jpeg",
     badge: "Quality Education Since 2024",
     title: "Empowering Future Nurses",
     subtitle: "Join our comprehensive nursing programs – ANM, GNM, and B.Sc.  Nursing. Experience world-class education with modern facilities and expert faculty committed to your success.",
     highlight: "Empowering Future Nurses",
   },
   {
-   image: "/images/hero3.avif",
+   image: "/images/image4.jpeg",
     badge: "Excellence in Healthcare Education",
     title: "Your Career Begins Here",
     subtitle:  "State-of-the-art laboratories, experienced faculty, and hands-on clinical training. Transform your passion for healthcare into a rewarding nursing career with us.",

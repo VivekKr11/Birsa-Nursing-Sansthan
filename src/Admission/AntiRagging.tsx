@@ -54,7 +54,7 @@ const AntiRagging = () => {
           <section className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 overflow-hidden">
             <div className="absolute inset-0">
               <img
-                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=2000&q=80"
+                src="/images/image10.jpeg"
                 alt="Safe campus environment"
                 className="w-full h-full object-cover"
               />
@@ -103,7 +103,7 @@ const AntiRagging = () => {
                   <div className="relative order-2 lg:order-1">
                     <div className="relative rounded-2xl overflow-hidden shadow-elevated">
                       <img
-                        src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&w=800&q=80"
+                        src="/images/image12.jpeg"
                         alt="Students together"
                         className="w-full h-[400px] object-cover"
                       />

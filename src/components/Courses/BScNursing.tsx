@@ -88,7 +88,7 @@ const BScNursing = () => {
             {/* Background Image */}
             <div className="absolute inset-0">
               <img
-                src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?auto=format&fit=crop&w=2000&q=80"
+                src="/images/image5.jpeg"
                 alt="B.Sc. Nursing students"
                 className="w-full h-full object-cover"
               />
@@ -176,7 +176,7 @@ const BScNursing = () => {
                 <div className="relative order-2 lg:order-1">
                   <div className="relative rounded-2xl overflow-hidden shadow-elevated">
                     <img
-                      src="https://images.unsplash.com/photo-1504813184591-01572f98c85f?auto=format&fit=crop&w=800&q=80"
+                      src="/images/image6.jpeg"
                       alt="B.Sc.  Nursing education"
                       className="w-full h-[500px] object-cover"
                     />
@@ -436,10 +436,10 @@ const BScNursing = () => {
                 </h2>
               </div>
               
-              <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+              <div className="grid md: grid-cols-3 gap-6 max-w-6xl mx-auto">
                 <div className="relative h-64 rounded-2xl overflow-hidden shadow-elevated group">
                   <img
-                    src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=600&q=80"
+                    src="/images/image12.jpeg"
                     alt="Nursing classroom"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -450,7 +450,7 @@ const BScNursing = () => {
                 </div>
                 <div className="relative h-64 rounded-2xl overflow-hidden shadow-elevated group">
                   <img
-                    src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80"
+                    src="/images/image8.jpeg"
                     alt="Nursing lab"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -461,7 +461,7 @@ const BScNursing = () => {
                 </div>
                 <div className="relative h-64 rounded-2xl overflow-hidden shadow-elevated group">
                   <img
-                    src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80"
+                    src="/images/image5.jpeg"
                     alt="Clinical training"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />

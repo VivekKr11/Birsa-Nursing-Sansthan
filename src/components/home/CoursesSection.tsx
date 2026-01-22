@@ -7,7 +7,7 @@ const courses = [
     id: "anm",
     name: "Auxiliary Nursing & Midwifery (ANM)",
     icon: BookOpen,
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
+    image: "/images/image3.jpeg",
     description: 
       "A duly INC Recognized 24-months program, producing quality ANM nurses placed across private and public sectors.",
     duration: "24 Months",
@@ -20,7 +20,7 @@ const courses = [
     id:   "gnm",
     name:   "General Nursing & Midwifery (GNM)",
     icon: GraduationCap,
-    image: "https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=800&q=80",
+    image: "/images/image5.jpeg",
     description:
       "A duly INC Recognized comprehensive three years program focusing on general nursing principles, patient care, and midwifery practices with hands-on clinical experience.",
     duration: "3 Years",
@@ -33,7 +33,7 @@ const courses = [
     id: "bsc-nursing",
     name: "B.Sc. Nursing",
     icon: Award,
-    image: "https://images.unsplash.com/photo-1551190822-a9333d879b1f?auto=format&fit=crop&w=800&q=80",
+    image: "/images/image6.jpeg",
     description:
       "A duly INC Recognized four years degree program providing in-depth knowledge of nursing science, clinical practice, and healthcare management.",
     duration: "4 Years",

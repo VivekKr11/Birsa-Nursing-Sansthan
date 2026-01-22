@@ -8,7 +8,7 @@ const CTASection = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?auto=format&fit=crop&w=2000&q=80"
+          src="/images/image4.jpeg"
           alt="Medical campus"
           className="w-full h-full object-cover"
         />
